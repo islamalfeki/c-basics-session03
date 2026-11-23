@@ -45,6 +45,16 @@ namespace c_basics_session03
 
             #endregion
 
+            #region Question04
+            // Using the StringBuilder from the question above, use Replace() to change "Book List" into "Library". 
+            //Print the result.
+
+
+            str.Replace("Book List", "Library");
+            Console.WriteLine(str);
+
+            #endregion
+
         }
     }
 }
