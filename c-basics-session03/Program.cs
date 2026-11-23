@@ -35,13 +35,13 @@ namespace c_basics_session03
             // Create a StringBuilder, Append() the text "Book List", then Append() " - Updated" onto the same 
             //object.Print the final result.
 
-            StringBuilder str = new StringBuilder();
+            //StringBuilder str = new StringBuilder();
 
-            str.Append("Book List");
-            Console.WriteLine(str);
+            //str.Append("Book List");
+            //Console.WriteLine(str);
 
-            str.Append(" - Updated");
-            Console.WriteLine(str);
+            //str.Append(" - Updated");
+            //Console.WriteLine(str);
 
             #endregion
 
@@ -50,8 +50,19 @@ namespace c_basics_session03
             //Print the result.
 
 
-            str.Replace("Book List", "Library");
-            Console.WriteLine(str);
+            //str.Replace("Book List", "Library");
+            //Console.WriteLine(str);
+
+            #endregion
+
+            #region Question05
+            // Given string title = "Clean Code"; and int pages = 464;, build the sentence "Book: Clean Code, 
+            // Pages: 464" using the + operator.
+
+            string title = "Clean Code";
+            int pages = 464;
+
+            Console.WriteLine("Book: " + title + " , Pages: " + pages);
 
             #endregion
 
